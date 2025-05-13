@@ -1,0 +1,36 @@
+Ping Scan:
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-12 17:05 CAT
+Nmap scan report for dns.umbrella.com (208.67.222.222)
+Host is up (0.00076s latency).
+Nmap done: 1 IP address (1 host up) scanned in 0.44 seconds
+
+Port Scan:
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-12 17:05 CAT
+Nmap scan report for dns.umbrella.com (208.67.222.222)
+Host is up (0.0066s latency).
+Not shown: 49598 filtered tcp ports (net-unreach), 15933 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+5353/tcp open  mdns
+
+Nmap done: 1 IP address (1 host up) scanned in 186.72 seconds
+
+OS & Version Detection:
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-12 17:08 CAT
+Nmap scan report for 208.67.222.222
+Host is up (0.00082s latency).
+All 1000 scanned ports on 208.67.222.222 are in ignored states.
+Not shown: 1000 filtered tcp ports (net-unreach)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: 3Com 4500G switch (92%), H3C Comware 5.20 (92%), Huawei VRP 8.100 (92%), Microsoft Windows Server 2003 SP1 (92%), Oracle Virtualbox Slirp NAT bridge (92%), QEMU user mode network gateway (92%), AXIS 2100 Network Camera (92%), D-Link DP-300U, DP-G310, or Hamlet HPS01UU print server (92%), HP Tru64 UNIX 5.1A (92%), Sanyo PLC-XU88 digital video projector (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.99 ms 208.67.222.222
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 34.22 seconds
